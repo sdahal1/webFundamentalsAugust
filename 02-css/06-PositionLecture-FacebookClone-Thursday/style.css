@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom, gray, white, white );
+    /* height: 100vh; */
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 110px;
+}
+
+#container{
+    height: 100%;
+    /* border: 3px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#cover-photo{
+    height: 700px;
+    /* border: 3px solid black; */
+    background: url("./treeRoots.webp");
+    background-size: cover;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+#cover-photo>button{
+    padding: 8px;
+    font-weight:700;
+}
+
+#cover-photo>img{
+   height: 150px;
+   width: 150px; 
+   border-radius: 50%;
+   border: 6px double white;
+   background-color: blue;
+
+   position: relative;
+   top: 120px;
+   left: 50px;
+}
+
+#info{
+    /* height: 300px; */
+    border-bottom: 1px solid black;
+    padding-left: 210px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#info>p{
+    color: gray;
+    font-weight:600;
+    margin-top: 5px;
+}
+
+#row{
+    /* border-bottom: 1px solid black; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 20px; */
+}
+
+#row-left, #row-right{
+    /* border: 1px solid purple; */
+    /* height: 80px; */
+    width: 200px;
+}
+
+#row-left>img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position:relative;
+}
+
+#friend2 {
+    right: 10px;
+}
+
+#friend3{
+    right: 20px;
+}
+
+#friend4{
+    right: 30px;
+}
+
+#friend5{
+    right: 40px;
+}
+
+
+#add-to-story,#edit-profile{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#add-to-story{
+    background-color: blue;
+    color: white;
+    
+}
+
+#edit-profile{
+    background-color: rgb(214, 209, 209);
+}
+
+#nav-bar{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+#nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#nav-links a{
+    color: gray;
+    text-decoration: none;
+}
+
+#nav-bar>button{
+    padding: 5px 14px;
+
+}
+
+#triangle{
+    font-size: 10px;
+}
+
+#cookie-box{
+    border: 3px solid red;
+    height: 100px;
+    background-color: rgb(162, 214, 214);
+    position: fixed;
+    bottom:10px;
+    width: 1000px;
+}
+
+
+
+
