@@ -25,11 +25,15 @@
         <div id="col-left">
             <div class="puppy-box">
                 <div class="puppy-box-left">
-                    <img src="./resources/puppy.jpeg" alt="puppy1">
+                    <img 
+                        onmouseover="switchImg(this)" 
+                        onmouseout="switchImg(this)" 
+                        src="./resources/puppy.jpeg" 
+                        alt="puppy1">
                     <h3>Junior</h3>
                     <em>Male</em>
                     <p>Breed: <em>Fox</em></p>
-                    <button>10 likes</button>
+                    <button onclick="increaseLikes('dog1Count')"><span id="dog1Count">10</span> likes</button>
                     <button onclick="petDog()">Pet this puppy</button>
                 </div>
                 <p>Junior is a very spontaneous, high energy <a href="#">Fox</a>  who loves to eat food</p>
@@ -41,7 +45,7 @@
                     <h3>Fluffy</h3>
                     <em>Female</em>
                     <p>Breed: <em>Beagle</em></p>
-                    <button>8 likes</button>
+                    <button onclick="increaseLikes('dog2Count')"><span id="dog2Count">8</span> likes</button>
                     <button onclick="petDog()">Pet this puppy</button>
 
                 </div>
@@ -55,7 +59,12 @@
             </div>
             <div class="col-right-box">
                 <p id="video-title">Our popular video of the week!</p>
-                <video src="./resources/puppy_video.mp4"></video>
+                <video 
+                    onmouseover="playVideo(this)" 
+                    onmouseout="pauseVideo(this)" 
+                    src="./resources/puppy_video.mp4" 
+                    muted="muted">
+                </video>
                 <em>This is Josie, the playful beach dog!</em>
             </div>
         </div>
@@ -64,7 +73,7 @@
     <div id="cookie-box">
         <img src="./resources/caution.jpeg" alt="">
         <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat (hydrogenated and partially hydrogenated oils)</p>
-        <button>I Accept</button>
+        <button onclick="removeCookieBox('cookie-box')">I Accept</button>
     </div>
 
 
