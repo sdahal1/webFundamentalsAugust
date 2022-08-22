@@ -18,7 +18,7 @@
             <input type="text" placeholder="Search a puppy name">
             <button>Search!</button>
         </div>
-        <button>Login</button>
+        <button onclick="toggleLogin(this)">Login</button>
     </div>
     <!--flex container div to hold the two columns-->
     <div class="flex-container">
@@ -30,6 +30,7 @@
                     <em>Male</em>
                     <p>Breed: <em>Fox</em></p>
                     <button>10 likes</button>
+                    <button onclick="petDog()">Pet this puppy</button>
                 </div>
                 <p>Junior is a very spontaneous, high energy <a href="#">Fox</a>  who loves to eat food</p>
             </div>
@@ -41,6 +42,8 @@
                     <em>Female</em>
                     <p>Breed: <em>Beagle</em></p>
                     <button>8 likes</button>
+                    <button onclick="petDog()">Pet this puppy</button>
+
                 </div>
                 <p>Junior is a very spontaneous, high energy <a href="#">Fox</a>  who loves to eat food</p>
             </div>
@@ -48,7 +51,7 @@
         <div id="col-right">
             <div class="col-right-box">
                 <p>Please upload your pup info to our puppy social media</p>
-                <button>Upload new pup!</button>
+                <button onclick="removeButton(this)">Upload new pup!</button>
             </div>
             <div class="col-right-box">
                 <p id="video-title">Our popular video of the week!</p>
@@ -63,5 +66,8 @@
         <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat (hydrogenated and partially hydrogenated oils)</p>
         <button>I Accept</button>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
