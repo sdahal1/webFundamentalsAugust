@@ -15,8 +15,15 @@
     <div id="nav-bar">
         <h1>PuppyGram</h1>
         <div id="nav-middle">
-            <input type="text" placeholder="Search a puppy name">
-            <button>Search!</button>
+            <input id="name-search" type="text" placeholder="Search a puppy name">
+            <select onchange="chooseLocation(this)">
+                <option value="">Please select a location</option>
+                <option value="DC">DC</option>
+                <option value="NYC">NYC</option>
+                <option value="Miami">Miami</option>
+                <option value="Charleston">Charleston</option>
+            </select>
+            <button onclick="searchPuppy()">Search!</button>
         </div>
         <button onclick="toggleLogin(this)">Login</button>
     </div>
@@ -75,7 +82,6 @@
         <p>This site will collect your information and bake it into a cookie which will be gluten free and no trans-fat (hydrogenated and partially hydrogenated oils)</p>
         <button onclick="removeCookieBox('cookie-box')">I Accept</button>
     </div>
-
 
     <script src="script.js"></script>
 </body>

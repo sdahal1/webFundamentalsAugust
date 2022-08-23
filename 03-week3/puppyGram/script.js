@@ -73,3 +73,20 @@ function increaseLikes(elementID){
 
     // document.querySelector("#"+elementID).innerText =  parseInt(document.querySelector("#"+elementID).innerText)+1;
 }
+
+
+
+
+function searchPuppy(){
+    // console.log("searching for a puppy named clifford!");
+    let element = document.querySelector("#name-search");
+    alert("you searched for " + element.value);
+}
+
+
+function chooseLocation(element){
+    // console.log("choosing a location!", element.value);
+    // alert("You are searching for a pet in this location: " + element.value)
+
+    alert(`You are searching for a dog in ${element.value}. Come by anytime!`)
+}
