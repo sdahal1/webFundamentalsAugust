@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: green; */
+}
+
+#coinList{
+    border: 5px inset rgb(133, 133, 194);
+    height: 1000px;
+    overflow: scroll;
+}
+
+button{
+    background-color: aquamarine;
+    padding: 5px 8px;
+    font-size: 22px;
+    margin: 20px 0px;
+}
