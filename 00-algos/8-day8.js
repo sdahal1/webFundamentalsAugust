@@ -47,3 +47,16 @@ i = 3
 //         console.log(`Minute: ${minuteHand}- Second: ${secondHand}`)
 //     }
 // }
+
+
+
+
+let arr = []
+
+
+for(let i = 0; i<=23; i++){
+    arr.push(i)
+}
+
+
+console.log(arr)
