@@ -29,6 +29,4 @@ async function getMoney(){
         div.appendChild(pTag);
 
     }
-
-    
 }
