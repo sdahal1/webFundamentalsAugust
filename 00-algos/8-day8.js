@@ -51,12 +51,24 @@ i = 3
 
 
 
-let arr = []
+// let arr = []
 
 
-for(let i = 0; i<=23; i++){
-    arr.push(i)
+// for(let i = 0; i<=23; i++){
+//     arr.push(i)
+// }
+
+
+// console.log(arr)
+
+
+
+// complete the following function
+function flatten(arr2d) {
+    var flat = [];
+    // your code here
+    return flat;
 }
-
-
-console.log(arr)
+    
+var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
+console.log(result); // we expect to get back [2, 5, 8, 3, 6, 1, 5, 7, 7]
